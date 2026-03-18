@@ -1,0 +1,8 @@
+---
+devices:
+  - platform: ios
+    count: 1
+  - scenario: ios-interfaces-merged
+    count: 1
+  - scenario: ios-interfaces-replaced
+    count: 1

@@ -1,0 +1,54 @@
+GigabitEthernet1 is up, line protocol is up
+  Hardware is CSR vNIC, address is 5254.000a.0001 (bia 5254.000a.0001)
+  Description: Management interface
+  Internet address is 10.0.0.1/24
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters never
+  Input queue: 0/375/0/0 (size/max/drops/flushes); Total output drops: 0
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     12345 packets input, 1234567 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     12345 packets output, 1234567 bytes, 0 underruns
+GigabitEthernet2 is up, line protocol is up
+  Hardware is CSR vNIC, address is 5254.000a.0002 (bia 5254.000a.0002)
+  Description: to_spine01
+  Internet address is 192.168.1.1/30
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full Duplex, 1000Mbps, link type is auto, media type is Virtual
+GigabitEthernet3 is administratively down, line protocol is down
+  Hardware is CSR vNIC, address is 5254.000a.0003 (bia 5254.000a.0003)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+GigabitEthernet4 is administratively down, line protocol is down
+  Hardware is CSR vNIC, address is 5254.000a.0004 (bia 5254.000a.0004)
+  MTU 1500 bytes, BW 1000000 Kbit/sec, DLY 10 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+Loopback0 is up, line protocol is up
+  Hardware is Loopback
+  Internet address is 10.255.255.1/32
+  MTU 1514 bytes, BW 8000000 Kbit/sec, DLY 5000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation LOOPBACK, loopback not set
+Loopback888 is up, line protocol is up
+  Hardware is Loopback
+  Description: Test loopback
+  Internet address is 10.255.0.1/32
+  MTU 1514 bytes, BW 8000000 Kbit/sec, DLY 5000 usec,
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation LOOPBACK, loopback not set
