@@ -1,0 +1,21 @@
+interface GigabitEthernet1
+ description Management interface
+ ip address 10.0.0.1 255.255.255.0
+ negotiation auto
+ no shutdown
+!
+interface GigabitEthernet2
+ description to_spine01
+ ip address 192.168.1.1 255.255.255.252
+ negotiation auto
+ no shutdown
+!
+interface GigabitEthernet3
+ no ip address
+ negotiation auto
+ shutdown
+!
+interface GigabitEthernet4
+ no ip address
+ negotiation auto
+ shutdown
